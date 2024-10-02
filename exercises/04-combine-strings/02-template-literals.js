@@ -16,3 +16,6 @@ let author = "J. K. Rowling";
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+let bookInfo = bookTitle.concat(" by ", author);
+console.log(bookInfo);

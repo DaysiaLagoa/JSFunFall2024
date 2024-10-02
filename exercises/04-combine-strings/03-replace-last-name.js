@@ -16,3 +16,9 @@ let newLastName = "Fernandez"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+
+let nameParts = fullName.split(" ");
+let updatedFullName = nameParts + " " + newLastName;
+
+console.log(updatedFullName)
