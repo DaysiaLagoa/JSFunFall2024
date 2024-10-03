@@ -49,9 +49,9 @@
             const num1 = Number(document.querySelector("#a").value) || 0;
             const num2 = Number(document.querySelector("#b").value) || 0;
 
-            const sum = num1 + num2; // Fix this line so that it adds the two numbers together instead of combining a string
+            const sum = parseInt(num1) + parseInt(num2); // Fix this line so that it adds the two numbers together instead of combining a string
 
-            Number(document.querySelector("#answer").textContent = sum) || 0;
+            document.querySelector("#answer").textContent = sum || "-";
           });
         });
       })();
