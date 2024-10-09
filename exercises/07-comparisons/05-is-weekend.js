@@ -9,3 +9,6 @@ let day = "Saturday";
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+// Method 3
+let isWeekend = day === "Saturday" || day === "Sunday";
