@@ -7,4 +7,4 @@ let planets = ["Pluto", "Saturn", "Mar"]; // e.g.
 
 // WRITE YOUR ANSWER BELOW THIS LINE
 
-{ firstName: "Clark", lastName: "Kent" }
+{ firstName= "Clark", lastName= "Kent" }
