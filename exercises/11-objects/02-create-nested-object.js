@@ -30,3 +30,22 @@ let linkedInLink = "https://linkedin.com/profile"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+let name = "Eddie Willard"; // e.g.
+let graduationYear = 2022; // e.g.
+let skills = ["Javascript", "React", "CSS"]; // e.g.
+let githubLink = "https://github.com/example/profile"; // e.g.
+let linkedInLink = "https://linkedin.com/profile"; // e.g.
+
+let graduate = {
+  name: name,
+  graduationYear: graduationYear,
+  skills: skills,
+  links: {
+    github: githubLink,
+    linkedIn: linkedInLink
+  }
+};
+
+console.log(graduate);
+

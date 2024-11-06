@@ -11,3 +11,9 @@ let error = "Username already exists."; // When the test runs, this could also b
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+let error = "Username already exists."; // When the test runs, this could also be an empty string
+
+let errorMessage = error || "An unexpected error occurred.";
+
+console.log(errorMessage);

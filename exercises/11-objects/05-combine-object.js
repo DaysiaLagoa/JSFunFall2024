@@ -13,3 +13,10 @@ const obj2 = { lastName: "Kent" }; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+const obj1 = { firstName: "Clark" }; // e.g.
+const obj2 = { lastName: "Kent" }; // e.g.
+
+const myObject = { ...obj1, ...obj2 };
+
+console.log(myObject);

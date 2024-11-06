@@ -15,3 +15,13 @@ let student = {
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+let student = {
+  name: "Maria Gómez",
+  skills: ["JavaScript"],
+};
+
+let student = {
+  student.name = "Daysia Lagoa";
+  
+};

@@ -11,3 +11,13 @@ const clothes = {
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+const clothes = {
+  hat: "ballcap",
+  shirt: "jersey",
+  shoes: "cleats",
+};
+
+let hat = clothes.hat;
+
+console.log(hat);

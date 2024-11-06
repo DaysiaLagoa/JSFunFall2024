@@ -11,3 +11,11 @@ let num = 8; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+JavaScript
+
+let num = 8; // e.g.
+
+let isEvenOrOdd = (num % 2 === 0) ? "even" : "odd";
+
+console.log(isEvenOrOdd);
