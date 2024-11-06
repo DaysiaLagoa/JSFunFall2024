@@ -6,3 +6,8 @@ let numbers = [10000, -8, 10, 0.7]; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+let numbers = [10000, -8, 10, 0.7]; // e.g.
+let sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+
+console.log(sum);
